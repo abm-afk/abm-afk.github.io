@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.layout {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #D5E1EF;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px; /* Limit card width */
+    background-color: white; /* Card background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 16px; /* Inner spacing */
+    text-align: center; /* Center text */
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05); /* Shadow effect */
+    padding-bottom: 40px;
+    gap: 24px
+}
+
+.card__qr-code img {
+    width: 100%; /* Make image responsive */
+    border-radius: 10px; /* Rounded corners for image */
+}
+.card__description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+h1 {
+    margin: 0px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 22px; /* Heading size */
+    color: #1F314F; /* Heading color */
+}
+
+p {
+    margin: 0px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-size: 15px; /* Paragraph size */
+    font-weight: 400;
+    color: #68778D; /* Paragraph color */
+}
